@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MergeSortApp {
     /**
      * Recursize method that takes in an array as a parameter.
@@ -80,5 +82,19 @@ public class MergeSortApp {
         }
 
         return c;
+    }
+
+    public static void main(String[] args) {
+        //Array used for testing that sort method worked successfully
+        int[] testArray = { 1, 2, 3, 3, 2, 1 };
+
+        //Display initial testArray to the screen, using System.out.println and Arrays.toString method
+        System.out.println("Initial Array:\n" + Arrays.toString(testArray));
+
+        //Sort testArray using merge sort method
+        testArray = mergeSortArray(testArray);
+
+        //Display sorted testArray to the screen, using System.out.println and Arrays.toString method
+        System.out.println("\nSorted Array:\n" + Arrays.toString(testArray));
     }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a6260e1-e3ed-4a67-aa81-cf62a76f1cfa" name="Default Changelist" comment="" />
+    <list default="true" id="2a6260e1-e3ed-4a67-aa81-cf62a76f1cfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/MergeSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MergeSortApp">
     <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSortApp" />
       <module name="Sort-Methods" />
@@ -35,8 +37,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortApp" />
+      <module name="Sort-Methods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortApp" />
         <item itemvalue="Application.BubbleSortApp" />
       </list>
     </recent_temporary>
@@ -55,48 +65,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2518" height="469" key="GridCell.Tab.0.bottom" timestamp="1592167970299">
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom" timestamp="1592169902088">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.bottom/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970299" />
-    <state width="2518" height="469" key="GridCell.Tab.0.center" timestamp="1592167970298">
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592169902088" />
+    <state width="2518" height="382" key="GridCell.Tab.0.center" timestamp="1592169902087">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.center/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970298" />
-    <state width="2518" height="469" key="GridCell.Tab.0.left" timestamp="1592167970297">
+    <state width="2518" height="382" key="GridCell.Tab.0.center/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592169902087" />
+    <state width="2518" height="382" key="GridCell.Tab.0.left" timestamp="1592169902087">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.left/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970297" />
-    <state width="2518" height="469" key="GridCell.Tab.0.right" timestamp="1592167970299">
+    <state width="2518" height="382" key="GridCell.Tab.0.left/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592169902087" />
+    <state width="2518" height="382" key="GridCell.Tab.0.right" timestamp="1592169902088">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.right/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970299" />
-    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1592167970458">
+    <state width="2518" height="382" key="GridCell.Tab.0.right/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592169902088" />
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1592168552516">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.bottom/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970458" />
-    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1592167970457">
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592168552516" />
+    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1592168552516">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.center/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970457" />
-    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1592167970457">
+    <state width="2518" height="469" key="GridCell.Tab.1.center/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592168552516" />
+    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1592168552515">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.left/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970457" />
-    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1592167970458">
+    <state width="2518" height="469" key="GridCell.Tab.1.left/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592168552515" />
+    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1592168552516">
       <screen x="1680" y="-367" width="2560" height="1336" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.right/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592167970458" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BubbleSortApp.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="2518" height="469" key="GridCell.Tab.1.right/1680.-367.2560.1336/4240.-367.2560.1417/0.23.1680.1027@1680.-367.2560.1336" timestamp="1592168552516" />
   </component>
 </project>

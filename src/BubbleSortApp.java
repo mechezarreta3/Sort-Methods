@@ -29,7 +29,7 @@ public class BubbleSortApp {
         //Sort testArray using bubble sort method
         bubbleSortArray(testArray);
 
-        //Display initial testArray to the screen, using System.out.println and Arrays.toString method
+        //Display sorted testArray to the screen, using System.out.println and Arrays.toString method
         System.out.println("\nSorted Array:\n" + Arrays.toString(testArray));
     }
 }
