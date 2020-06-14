@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6260e1-e3ed-4a67-aa81-cf62a76f1cfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/QuickSortApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort-Methods/BubbleSortApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort-Methods/MergeSortApp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
