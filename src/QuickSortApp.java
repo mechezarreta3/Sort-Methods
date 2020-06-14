@@ -1,6 +1,15 @@
+import java.util.Arrays;
+
 public class QuickSortApp {
+
+    public static void quickSortArray(int[] array) {
+        int lowIdx = 0;
+        int highIdx = array.length - 1;
+        quickSortArray(array, lowIdx, highIdx);
+    }
+
     public static void quickSortArray(int[] array, int low, int high) {
-        if (array.length != 1) {
+        if (low < high) {
             int p = partition(array, low, high);
 
             // Recursively sort elements before pivot point
@@ -11,21 +20,34 @@ public class QuickSortApp {
     }
 
     public static int partition(int[] array, int low, int high) {
-        int p = low;
-        int temp;
+        int pivotIdx = low;
 
-        for (int i = low + 1; i < high; i++) {
+        for (int i = low + 1; i <= high; i++) {
             if(array[i] < array[low]) {
-                p++;
-                temp = array[i];
-                array[i] = array[low];
-                array[low] = temp;
+                pivotIdx++;
+                int temp = array[i];
+                array[i] = array[pivotIdx];
+                array[pivotIdx] = temp;
             }
         }
-        temp = array[low];
-        array[low] = array[p];
-        array[p] = temp;
+        int temp = array[low];
+        array[low] = array[pivotIdx];
+        array[pivotIdx] = temp;
 
-        return p;
+        return pivotIdx;
+    }
+
+    public static void main(String[] args) {
+        //Array used for testing that sort method worked successfully
+        int[] testArray = { 1, 2, 3, 3, 2, 1 };
+
+        //Display initial testArray to the screen, using System.out.println and Arrays.toString method
+        System.out.println("Initial Array:\n" + Arrays.toString(testArray));
+
+        //Sort testArray using quick sort method
+        quickSortArray(testArray);
+
+        //Display sorted testArray to the screen, using System.out.println and Arrays.toString method
+        System.out.println("\nSorted Array:\n" + Arrays.toString(testArray));
     }
 }
