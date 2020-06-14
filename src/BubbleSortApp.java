@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class BubbleSortApp {
-    public static int[] bubbleSortArray(int[] integerArray) {
+    public static void bubbleSortArray(int[] integerArray) {
         int temp;
 
         for(int i = 0; i < integerArray.length; i++) {
@@ -13,8 +13,6 @@ public class BubbleSortApp {
                 }
             }
         }
-
-        return integerArray;
     }
 
     public static void main(String[] args) {
@@ -24,8 +22,8 @@ public class BubbleSortApp {
         //Purpose: Display initial testArray to the screen, using System.out.println and Arrays.toString method
         System.out.println("Initial Array:\n" + Arrays.toString(testArray));
 
-        //Sort testArray using bubble sort method, and assign sorted array to testArray variable
-        testArray = bubbleSortArray(testArray);
+        //Sort testArray using bubble sort method
+        bubbleSortArray(testArray);
 
         ////Purpose: Display initial testArray to the screen, using System.out.println and Arrays.toString method
         System.out.println("\nSorted Array:\n" + Arrays.toString(testArray));
